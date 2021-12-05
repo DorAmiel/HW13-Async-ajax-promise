@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6617997540813201) 0%, rgba(167, 167, 167, 1) 100%);
+}
+
+table {
+    margin: auto;
+    width: 80% !important;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px !important;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#ex1-table {
+    opacity: 0;
+}
+
+#ex2-input {
+    width: 80px;
+    background-color: rgb(208, 209, 209);
+}
+
+#user-info-container {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+#inputGroupSelect01 {
+    background-color: rgb(208, 209, 209);
+}
+
+th {
+    width: 25%;
+}
+
+#ex4-table {
+    opacity: 0;
+}
+
+#ex5-table {
+    opacity: 0;
+}
