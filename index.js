@@ -195,7 +195,8 @@ const displayPhotosOnTable = (photoList) => {
     let photosTableBody = document.getElementById("user-table-body-ex4")
     tableRows = ''
     for (let photoElement of photoList) {
-        tableRows += `
+        if (photoElement.id <= 100) {
+            tableRows += `
         <tr>
             <td>${photoElement.albumId}</td>
             <td>${photoElement.id}</td>
@@ -203,6 +204,7 @@ const displayPhotosOnTable = (photoList) => {
             <td><img src="${photoElement.thumbnailUrl}" </img></td>
         </tr>
         `
+        }
     }
 
     photosTableBody.innerHTML = tableRows
